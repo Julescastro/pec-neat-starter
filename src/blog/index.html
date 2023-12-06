@@ -2,40 +2,52 @@
 layout: blog
 ---
 
-<section class="mt-15">
-    {% set postslist = collections.post %}
+<section class="bg-white tails-selected-element">
+    <div class="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
+        <div class="flex grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
+                
+                    {% set postslist = collections.post %}
 
-    {% for post in postslist | reverse %}
-        <article class="my-8">
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
-                <a href="{{ post.url | url }}">
-                    {% if post.data.title %}
-                        {{ post.data.title }}
-                    {% else %}
-                        Untitled
+                    {% for post in postslist | reverse %}
+                <article class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+                    <h2 class="text-lg font-bold sm:text-xl md:text-2xl text-gray-900 mb-2">
+                        <a href="{{ post.url | url }}" class="block">
+                            <img class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/fruit.jpg"> 
+                            {% if post.data.title %}
+                                {{ post.data.title }}
+                            {% else %}
+                                Untitled
+                            {% endif %}
+                        </a>
+                    </h2>
+                    <p class="pt-2 text-xs font-medium">
+                        <time>
+                            {{ post.date | readableDate }}
+                            by
+                            <a>{{ post.data.author }}</a>
+
+                        </time>
+                    </p>
+                    {% if post.data.description %}
+                        <p class="text-sm text-gray-500">
+                            {{ post.data.description }}
+                        </p>
                     {% endif %}
-                </a>
-            </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
-                <time>
-                    {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
 
-                </time>
-            </p>
-            {% if post.data.description %}
-                <p class="text-lg text-gray-500 mb-3">
-                    {{ post.data.description }}
-                </p>
-            {% endif %}
+                    <p>
+                        <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
+                            Read more →
+                        </a>
+                    </p>
 
-            <p>
-                <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
-                </a>
-            </p>
+                </article>
+                {% endfor %}
+            
+        </div>
+    </div>
 
-        </article>
-    {% endfor %}
 </section>
+
+
+
+
