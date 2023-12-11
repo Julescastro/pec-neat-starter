@@ -17,6 +17,13 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter('limit', function (array, limit) {
+    if (!limit) {
+      return array
+    }
+    return array.slice(0, limit)
+  });
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
