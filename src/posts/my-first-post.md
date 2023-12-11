@@ -6,6 +6,7 @@ description: A coalición, encabezada por Manoel Ucha e Patricia Pardo, contou c
   multiusos do Auditorio Reveriano Soutullo
 author: Ponteareas en Común
 date: 2023-04-01T22:00:00.000Z
+imagenPrincipal: /static/img/whatsapp-image-2023-04-02-at-09.13.06-1.jpeg
 tags:
   - left
   - center
