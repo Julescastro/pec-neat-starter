@@ -1,0 +1,26 @@
+Personas:
+  - Nombre: MANOEL UCHA
+    url: https://www.netlifycms.org/
+    desc: Veciño de 32 anos, vivíu toda a infancia en Canedo e actualmente reside en Ribadetea. Activista social dende os 21 anos, estudou Enxeñería Forestal na UVigo  e Educación Social na UNED, desenvolve a súa carreira profesional como profesor de FP na Escola Pública dende o ano 2016.
+    num: 1
+    color: bg-black
+    foto:
+  - Nombre: PATRICIA PARDO
+    url: https://www.netlifycms.org/
+    desc:  Licenciada en Bioloxía, ex-traballadora do sector da teleoperación, milita en política dende moi nova. Patricia é unha muller comprometida coa xustiza social, cos dereitos das mulleres e das xentes traballadoras.
+    num: 2
+    color: bg-red-600
+    foto:
+  - Nombre: PILAR FERREIRO
+    url: https://www.netlifycms.org/
+    desc: Licenciada en dereito, especialista en estudos de xénero e profesora de Formación Profesional na escola pública. Participa como independente coa ilusión de sumar toda a súa experiencia á política municipal.
+    num: 3
+    color: bg-purple-600
+    foto:
+  - Nombre: LINO COSTAS
+    url: https://www.netlifycms.org/
+    desc: Coordinador local e membro da executiva nacional de Esquerda Unida, traballador do metal e incansable militante de esquerdas. Lino representa o bo facer en política sempre defendendo as causas xustas.
+    num: 4
+    color: bg-black
+    foto:
+

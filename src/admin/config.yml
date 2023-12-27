@@ -61,6 +61,20 @@ collections:
               - { label: URL, name: url, widget: string }
               - { label: Description, name: desc, widget: string }
               - { label: color, name: color, widget: string}
+      - label: "Quen Somos"
+        name: "Personas"
+        file: "src/_data/quensomos.yaml"
+        fields:
+          - label: Nav Items
+            name: Personas
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Nombre, name: Nombre, widget: string }
+              - { label: Description, name: desc, widget: string }
+              - { label: Numero, name: num, widget: string }
+              - { label: color, name: color, widget: string}
+              - { label: Foto, name: Foto, widget: image }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
