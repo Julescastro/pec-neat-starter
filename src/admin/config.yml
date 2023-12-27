@@ -32,15 +32,15 @@ collections:
         create: true
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Quen Somos"
-    name: "Personas"
+    name: "Persoas"
     editor:
-      preview: true
+      preview: false
     files:
-      - label: Personas
-        name: "Personas"
+      - label: Persoas
+        name: "Persoas"
         file: "src/_data/quensomos.yaml"
         fields:
-          - label: Nav Items
+          - label: Persoas
             name: Personas
             widget: list
             collapsed: false
