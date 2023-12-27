@@ -6,8 +6,13 @@ module.exports = {
     },
     extend: {
       colors: {},
+      fontFamily: {
+        Dancing: [ '"Dancing Script"','Open Sans']
+      }
     },
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
 };
+
+

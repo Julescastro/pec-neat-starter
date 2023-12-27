@@ -44,6 +44,12 @@ module.exports = function (eleventyConfig) {
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+  // add Google fonts
+  const eleventyGoogleFonts = require("eleventy-google-fonts");
+  module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyGoogleFonts);
+  };
+
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
