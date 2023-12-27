@@ -57,7 +57,7 @@ collections:
     files:
       - label: "Obxectivos"
         name: "Obxectivo"
-        file: "src/_data/Obxectivos.yaml"
+        file: "src/_data/obxectivos.yaml"
         fields:
           - label: Obxectivos
             name: Obxectivo
