@@ -35,18 +35,21 @@ collections:
     name: "Personas"
     editor:
       preview: true
-    file: "src/_data/quensomos.yaml"
-    fields:
-      - label: Nav Items
-        name: Personas
-        widget: list
-        collapsed: false
+    files:
+      - label: Personas
+        name: "Personas"
+        file: "src/_data/quensomos.yaml"
         fields:
-          - { label: Nombre, name: Nombre, widget: string }
-          - { label: Descripción, name: desc, widget: string }
-          - { label: Número, name: num, widget: string }
-          - { label: Color, name: color, widget: string}
-          - { label: Foto, name: Foto, widget: image }
+          - label: Nav Items
+            name: Personas
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Nombre, name: Nombre, widget: string }
+              - { label: Descripción, name: desc, widget: string }
+              - { label: Número, name: num, widget: string }
+              - { label: Color, name: color, widget: string}
+              - { label: Foto, name: Foto, widget: image }
   - label: "Settings"
     name: "settings"
     editor:
