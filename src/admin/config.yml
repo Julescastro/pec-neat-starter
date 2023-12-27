@@ -50,6 +50,23 @@ collections:
               - { label: Número, name: num, widget: string }
               - { label: Color, name: color, widget: string}
               - { label: Foto, name: Foto, widget: image }
+  - label: "Obxectivos"
+    name: "Obxectivos"
+    editor:
+      preview: false
+    files:
+      - label: "Obxectivos"
+        name: "Obxectivo"
+        file: "src/_data/Obxectivos.yaml"
+        fields:
+          - label: Obxectivos
+            name: Obxectivo
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Titulo, name: title, widget: string }
+              - { label: Descripcion, name: desc, widget: string }
+              - { label: Color, name: color, widget: string}
   - label: "Settings"
     name: "settings"
     editor:
@@ -67,19 +84,7 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-              - { label: color, name: color, widget: string}
+
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"

@@ -1,13 +1,11 @@
-links:
+obxectivo:
   - title: Ser a garantía de esquerdas
-    url: https://www.netlifycms.org/
     desc: Ponteareas en común é un espazo político coas ideas claras e traballadas
       en colectivo. Confiar en nós é garantir a loita continua pola xustiza
       social para todas as persoas da vila. Seremos a voz de todas as persoas de
       Ponteareas.
     color: bg-red-600
   - title: Ilusionar polo cambio
-    url: https://www.11ty.dev/
     desc: "Se sempre se fan as cousas de xeito idéntico, o resultado sempre será o
       mesmo. A nosa forza promete, e ten a capacidade, de ofrecer novos xeitos
       para afrontar os retos de Ponteareas e resolver os problemas da vila.
@@ -15,14 +13,12 @@ links:
       dignas e xustas. "
     color: bg-black
   - title: Remunicipalización
-    url: https://github.com/alpinejs/alpine
     desc: "A creación dunha empresa pública é fundamental para Ponteareas. Con este
       proxecto poderemos municipalizar os servizos esenciais como a auga, a
       axuda no fogar e a recollida de lixo. É fundamental coidar e garantir
       servizos públicos de calidade, gratuítos e universais. "
     color: bg-red-600
   - title: Vivenda Pública
-    url: https://tailwindcss.com/
     desc: "Imaxinas vivir de alugueiro ata os 35 anos con 100-150 euros ao mes? Con
       Ponteareas en Común será posible, non é unha utopía é unha necesidade.
       Apostamos pola creación de vivenda pública dende o concello como garantía
