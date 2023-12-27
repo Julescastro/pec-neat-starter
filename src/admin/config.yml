@@ -56,11 +56,11 @@ collections:
       preview: false
     files:
       - label: "Obxectivos"
-        name: "Obxectivo"
+        name: "obxectivo"
         file: "src/_data/obxectivos.yaml"
         fields:
-          - label: Obxectivos
-            name: Obxectivo
+          - label: obxectivos
+            name: obxectivo
             widget: list
             collapsed: false
             fields:
