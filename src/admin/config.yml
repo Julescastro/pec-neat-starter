@@ -31,6 +31,22 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
+  - label: "Quen Somos"
+    name: "Personas"
+    editor:
+      preview: true
+    file: "src/_data/quensomos.yaml"
+    fields:
+      - label: Nav Items
+        name: Personas
+        widget: list
+        collapsed: false
+        fields:
+          - { label: Nombre, name: Nombre, widget: string }
+          - { label: Descripción, name: desc, widget: string }
+          - { label: Número, name: num, widget: string }
+          - { label: Color, name: color, widget: string}
+          - { label: Foto, name: Foto, widget: image }
   - label: "Settings"
     name: "settings"
     editor:
@@ -61,20 +77,6 @@ collections:
               - { label: URL, name: url, widget: string }
               - { label: Description, name: desc, widget: string }
               - { label: color, name: color, widget: string}
-      - label: "Quen Somos"
-        name: "Personas"
-        file: "src/_data/quensomos.yaml"
-        fields:
-          - label: Nav Items
-            name: Personas
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Nombre, name: Nombre, widget: string }
-              - { label: Description, name: desc, widget: string }
-              - { label: Numero, name: num, widget: string }
-              - { label: color, name: color, widget: string}
-              - { label: Foto, name: Foto, widget: image }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
@@ -82,3 +84,4 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
+        
