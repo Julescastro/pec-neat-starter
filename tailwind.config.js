@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       colors: {},
       fontFamily: {
-        Dancing: [ '"Dancing Script"','Open Sans']
+        Dancing: [ '"Dancing Script"','Open Sans'],
+        Permanent: [ '"Permanent Marker"','Open Sans']
+
       }
     },
   },
