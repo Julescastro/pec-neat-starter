@@ -1,5 +1,7 @@
 ---
 items:
+  - text: Inicio
+    url: "/"
   - text: Quen somos
     url: "/quensomos"
   - text: Menu Two
