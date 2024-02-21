@@ -26,12 +26,85 @@ Personas:
     num: 5
     color: bg-black
     foto: /static/img/Persoas/jonathan-martinez.jpeg
-  - Nombre: MELCA RUIZ
+  - Nombre: MELCA RUÍZ
     url: https://www.netlifycms.org/
     desc: Activista social, profesora de física e química na escola pública e militante de esquerdas comprometida cos dereitos dos animais, da igualdade entre mulleres e homes e na loita contra a exclusión social. 
     num: 6
     color: bg-red-600
     foto: /static/img/Persoas/melca-ruiz.jpeg
+  - Nombre: ANXO F. SABORIDO
+    desc: Veciño de Angoares, licenciado en dereito pola UVigo, xestor cultural, presidente do grupo ecoloxista Adenco entre os anos 2000 e 2022, activista en numerosos movementos veciñais, educativos e ambientais e actualmente secretario da Federación Galega de Montañismo. 
+    num: 7
+    color: bg-purple-600
+    foto: /static/img/Persoas/melca-ruiz.jpeg
+  - Nombre: VANESA M. BOENTE
+    desc: Natural de Xinzo, traballadora na xestión de residuos e educadora social de formación, participou en movementos sociais a prol da vivenda digna e leva dez anos como activista social colocando a súa formación ao servizo das persoas do común.
+    num: 8
+    color: bg-black
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: MARIO LAGO
+    desc: Veciño de Pías, estudou FP no IES Pedra da Auga e traballa dende o ano 1999 na factoría de Estellantis (Citroën) en Vigo. Mario é militante de CCOO. 
+    num: 9
+    color: bg-black
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: LUCÍA CANTALAPIEDRA
+    desc: Veciña de Celeiros, leva anos comprometida cos dereitos sociais. Lucía é unha muller incombustible que suma o seu talento e capacidade de traballo ao ben común. 
+    num: 10
+    color: bg-red-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: MATEO GÓMEZ
+    desc: Veciño de Ponteareas de 22 anos, graduado en Física, cursa na actualidade un mestrado en Matemáticas na Universidade de Santiago. Mateo trae a enerxía, a ilusión e a capacidade de traballo das xentes mozas.
+    num: 11
+    color: bg-purple-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: SAÍNZA GONZÁLEZ
+    desc: Natural de Xinzo e veciña de Ribadetea, é docente de Xeografía e Historia na escola pública. Saínza leva desde os vinte anos participando de forma activa na loita contra as desigualdades nos movementos sociais de Ponteareas.
+    num: 12
+    color: bg-black
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: ANXO G. TEIXEIRA
+    desc: Veciño de Arcos de 22 anos, titulado en FP Superior en Ensinanza e Animación Sociodeportiva, estuda actualmente o FP Superior de Química e Saúde Ambiental. Anxo é defensor da vida no rural e está comprometido na loita contra o cambio climático..
+    num: 13
+    color: bg-black
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: PUERTO URBIETA
+    desc: Mestra de formación, leva anos participando de forma activa nos movementos sociais que loitan contra as desigualdades na nosa vila. Puerto é unha muller cunha gran bagaxe cultural e social que coloca todo o seu talento ao servizo do ben común.
+    num: 14
+    color: bg-red-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: ROSALÍA AREAL
+    desc: Natural de Padróns, leva comprometida cos dereitos das persoas traballadoras dende moi nova. Traballadora da admnistración pública, leva loitando anos polos dereitos laborais, sociais e ambientais e poloa construción dunha vida máis xusta. 
+    num: 15
+    color: bg-purple-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: BORJA RODRÍGUEZ
+    desc: Enxeñeiro Químico, activista social, membro da coordinadora local de Esquerda Unida e experto en xestión do ciclo integral da auga. Borja suma o seu talento, compromiso e bofacer ao ben común. 
+    num: 16
+    color: bg-black
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+
+  - Nombre: LOURDES FERREIRO
+    desc: Licenciada en Filosofía pola USC é profesora no IES Val do Tea de Ponteareas. Lourdes achega a capacidade de traballar en equipo, de sumar ideas e propostas para construír unha Ponteareas de xustiza social. 
+    num: 17
+    color: bg-black
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+
+  - Nombre: ALBERTO LÓPEZ
+    desc: Defensor dos dereitos das persoas traballadoras, milita de forma activa na loita sindical construíndo unha sociedade onde recortar as desigualdades para construír vidas dignas. 
+    num: 18
+    color: bg-red-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+
+  - Nombre: SABELA RODRIGUES
+    desc: Veciña de Canedo de 24 anos, na actualidade reside no casco urbano. Sabela é graduada en Belas Artes pola UVigo, xogadora de fútbol no San Mateo e leva anos comprometida cos dereitos culturais e de ocio digno. 
+    num: 19
+    color: bg-purple-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
+  - Nombre: MARÍA HIDALGO
+    desc: Graduada en Enxeñería Química Industrial pola Universidade de Extremadura, estudou un Mestrado en Matemática Industrial na USC. María é militante de Esquerda Unida e está comprometida coa xustiza social, os dereitos das mulleres e os dereitos dos animais. 
+    num: 20
+    color: bg-purple-600
+    foto: /static/img/Persoas/manoel-ucha.jpeg
   - Nombre: PABLO FERNÁNDEZ
     url: https://www.netlifycms.org/
     desc: Graduado en Química, desenvolveu a súa carreira como investigador no campo do desenvolvemento sostible e ordenación do territorio en Barcelona, Vila Real e actualmente na Universidade de Vigo. Pablo é un activista social a favor dos dereitos da clase traballadora.
