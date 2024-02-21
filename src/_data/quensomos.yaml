@@ -3,21 +3,39 @@ Personas:
     desc: Veciño de 32 anos, vivíu toda a infancia en Canedo e actualmente reside en Ribadetea. Activista social dende os 21 anos, estudou Enxeñería Forestal na UVigo  e Educación Social na UNED, desenvolve a súa carreira profesional como profesor de FP na Escola Pública dende o ano 2016.
     num: 1
     color: bg-black
-    foto: /static/img/Persoas/manoel-ucha.jpg
+    foto: /static/img/Persoas/manoel-ucha.jpeg
   - Nombre: PATRICIA PARDO
     desc:  Licenciada en Bioloxía, ex-traballadora do sector da teleoperación, milita en política dende moi nova. Patricia é unha muller comprometida coa xustiza social, cos dereitos das mulleres e das xentes traballadoras.
     num: 2
     color: bg-red-600
-    foto: /static/img/Persoas/patricia-pardo.jpg
+    foto: /static/img/Persoas/patricia-pardo.jpeg
   - Nombre: PILAR FERREIRO
     desc: Licenciada en dereito, especialista en estudos de xénero e profesora de Formación Profesional na escola pública. Participa como independente coa ilusión de sumar toda a súa experiencia á política municipal.
     num: 3
     color: bg-purple-600
-    foto: /static/img/Persoas/pilar-ferreiro.jpg
+    foto: /static/img/Persoas/pilar-ferreiro.jpeg
   - Nombre: LINO COSTAS
     url: https://www.netlifycms.org/
     desc: Coordinador local e membro da executiva nacional de Esquerda Unida, traballador do metal e incansable militante de esquerdas. Lino representa o bo facer en política sempre defendendo as causas xustas.
     num: 4
     color: bg-black
-    foto: /static/img/Persoas/lino-costas.jpg
+    foto: /static/img/Persoas/lino-costas.jpeg
+  - Nombre: JONATHAN MARTÍNEZ
+    url: https://www.netlifycms.org/
+    desc: Albanel de profesión, activouse en política co 15m e na actualidade é enlace de coordinación de Podemos na nosa vila. Jonathan suma a súa capacidade ao ben común.
+    num: 5
+    color: bg-black
+    foto: /static/img/Persoas/jonathan-martinez.jpeg
+  - Nombre: MELCA RUIZ
+    url: https://www.netlifycms.org/
+    desc: Activista social, profesora de física e química na escola pública e militante de esquerdas comprometida cos dereitos dos animais, da igualdade entre mulleres e homes e na loita contra a exclusión social. 
+    num: 6
+    color: bg-red-600
+    foto: /static/img/Persoas/melca-ruiz.jpeg
+  - Nombre: PABLO FERNÁNDEZ
+    url: https://www.netlifycms.org/
+    desc: Graduado en Química, desenvolveu a súa carreira como investigador no campo do desenvolvemento sostible e ordenación do territorio en Barcelona, Vila Real e actualmente na Universidade de Vigo. Pablo é un activista social a favor dos dereitos da clase traballadora.
+    num: 21
+    color: bg-black
+    foto: /static/img/Persoas/pablo-fernandez.jpeg
 

@@ -33,8 +33,8 @@ path: home
   </div>
 </section>
 
-<section class="py-20 bg-black tails-selected-element 2xl:bg-black" >
-  <div class="container items-center max-w-8xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+<section id="espazopolitico" class="py-20 bg-black tails-selected-element 2xl:bg-black scroll-mt-16" >
+  <div class="container items-center max-w-8xl px-4 mx-auto sm:px-20 md:px-32 lg:px-16">
     <div class="flex flex-wrap items-center -mx-3">
       <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
         <div class="w-full lg:max-w-md">
@@ -54,7 +54,7 @@ path: home
         </div>
       </div>
       
-      <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img class="mx-auto sm:max-w-sm lg:max-w-full" src="/static/img/pec_espazo_politico.png" alt="feature image"></div>
+      <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img class="mx-auto sm:max-w-sm lg:max-w-full" src="/static/img/espazo-politico.png" alt="feature image"></div>
     </div>
   </div>
 </section>
@@ -65,8 +65,8 @@ Sección Blog #}
 
 <section class="bg-white tails-selected-element">
     <div class="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
-      <h2 class="flex justify-center text-4xl">Ultimas novas</h2>
-        <div class="flex grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
+      <h2 class="flex justify-center font-Permanent text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl ">Ultimas novas</h2>
+        <div class="grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
                 
           {% set postsListLimit = 3 %} 
           {% set postslist = collections.post | reverse | limit(postsListLimit) %}
@@ -114,15 +114,28 @@ Sección Blog #}
 
 </section>
 
-{# 
-Sección Obxectivos #}
+{# Sección Obxectivos #}
 
-<section class="bg-white tails-selected-element mb-0">
+<section id="Obxectivos" class="bg-white tails-selected-element mb-0 scroll-mt-32">
  
 <div class="mx-auto flex flex-col items-center">
- <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">Principais obxectivos </h2>
+ <h2  class="font-Permanent text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl xl:mb-16">Principais obxectivos </h2>
   <div>
   {% include "./_includes/partials/content.html" %}
   </div>
+</div>
+</section>
+
+{# Sección Programa #}
+
+<section id="programa" class="bg-white tails-selected-element mb-0">
+ 
+<div class="mx-auto mt-10 flex flex-col items-center">
+            <a href="/static/documents/programa_ponteareasencomun_2023.pdf" class="flex items-center underline sm:px-1 xl:px-6 py-3 mb-3 text-lg text-white bg-black rounded-md sm:mb-0 hover:bg-red-500 sm:w-auto sm:max-w-sm mx-auto" target="_blank" data-rounded="rounded-md">
+              Consulta o programa completo aqui
+             </a>
+
+             <a href="/static/documents/programa_ponteareasencomun_2023.pdf" target="_blank"> <img src="/static/img/pec_a_ilusion_do_cambio.png" class="max-w-3xl"> </a>
+
 </div>
 </section>

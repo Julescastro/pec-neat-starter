@@ -4,15 +4,15 @@
 
         {% for item in quensomos.Personas %}
 
-            <div  class="flex text-white pl-5 border rounded-lg {{item.color}} border-gray-200 hover:border-purple-400 xl:h-72 lg:h-80 sm:h-72 ">
+            <div  class="flex text-white pl-5 border rounded-lg {{item.color}} border-gray-200 hover:border-purple-400 xl:h-72 lg:h-80 sm:h-76 sm:max-w-3xl mx-auto">
 
                     <div class="w-3/5 m-6">
                         <span class="font-bold text-center block">Nº{{item.num}}</span>
                         <h3 class="font-Permanent font-bold">{{item.Nombre}}</h3>
                         <p>{{item.desc}}</p>
                     </div>
-                    <div class="w-2/5">
-                        <img src="{{item.foto}}" class="h-full object-cover">
+                    <div class="w-2/5 place-content-end">
+                        <img src="{{item.foto}}" class="h-full object-cover end-0">
                     </div>
                 
             </div>

@@ -17,11 +17,35 @@ obxectivo:
       proxecto poderemos municipalizar os servizos esenciais como a auga, a
       axuda no fogar e a recollida de lixo. É fundamental coidar e garantir
       servizos públicos de calidade, gratuítos e universais. "
-    color: bg-red-600
+    color: bg-black
   - title: Vivenda Pública
     desc: "Imaxinas vivir de alugueiro ata os 35 anos con 100-150 euros ao mes? Con
       Ponteareas en Común será posible, non é unha utopía é unha necesidade.
       Apostamos pola creación de vivenda pública dende o concello como garantía
       de vida digna con plans específicos para a mocidade e a xente en situación
       económica vulnerable. "
+    color: bg-purple-600
+  - title: Conectar a vila coa natureza
+    desc: "Ponteareas en común ten a certeza que vivir en convivencia coa natureza é fundamental. Queremos recuperar a ribeira dos ríos Tea e Uma, erradicar as especies invasoras dos nosos montes e abrir a vila á natureza con proxectos urbanos verdes. "
+    color: bg-red-600
+  - title: Crear unha Comunidade Enerxética
+    desc: "As enerxías renovables son fundamentais para construír futuro e loitar contra o cambio climático. O acceso á enerxia limpa non pode estar unicamente en mans de persoas que o poden permitir e o concello debe garantir a toda a cidadanía e empresas o seu acceso. Precisamos colocarnos ao nivel doutras vilas e cidades que xa teñen en marcha a súa propia Comunidade Enerxética."
+    color: bg-black
+  - title: Do corredor da morte ao camiño da esperanza
+    desc: "Cambiar o enfoque da xestión animal é fundamental. Dende Ponteareas en Común propoñemos un servizo de protetora municipal pública. Cada vez somos máis persoas ás que queremos convivir e dotar de dereitos aos animais."
+    color: bg-black
+  - title: Facer da política un espazo de participación
+    desc: "Decía Julio Anguita, programa, programa e programa. Nós imos máis alá: PARTICIPACIÓN, PARTICIPACIÓN e PARTICIPACIÓN. Témolo claro, dende Ponteareas en Común, abriremos o concello á xente e participación democrática das veciñas e veciños é un eixo fundamental da nosa forma de entender a política."
+    color: bg-purple-600
+  - title: Garantir a igualdade de xénero en Ponteareas
+    desc: "Os servizos de prevención de violencia de xénero deben funcionar con máis intensidade. Dende Ponteareas en Común melloraremos o funcionamento do CIM, garantizaremos o cumprimento do Plan de Igualdade do concello e poremos en marcha campañas de sensibilización. "
+    color: bg-red-600
+  - title: Sentir as cores LGTBI
+    desc: "A nosa localidade debe ser un espazo aberto, diverso e alegre que defenda as orientacións e identidades sexuais de todas as persoas garantindo programas de prevención da LGTBIfobia. Educación, educación e educación. Conectaremos os centros escolares co goberno local para garantir unha vila libre de violencias."
+    color: bg-black
+  - title: Rural e casco urbano, Ponteareas é un todo
+    desc: "Ponteareas somos 24 parroquias. Dende Ponteareas en Común consideramos fundamental conectar o rural entre si e co casco urbano coa posta en marcha de servizos de mobilidade sostible que garantan os mesmos dereitos vivas onde vivas."
+    color: bg-black
+  - title: Nin unha persoa atrás!
+    desc: "Ponteareas é unha vila cuns índices de pobreza e exclusión social moi elevados. Dende Ponteareas en Común temos claro que debemos construír unha vila que non deixa a ningunha persoa atrás e que traballa desde unha mirada de solidariedade e redución das desigualdades"
     color: bg-purple-600
